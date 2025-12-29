@@ -5,8 +5,8 @@ sys.path.append(f"{os.path.dirname(os.path.abspath(__file__))}/..")
 
 from pathlib import Path
 
-from code_security.graphs.FullCWEGraph import FullCWEGraph
-from code_security.graphs.WeaknessCWEGraph import WeaknessCWEGraph
+from ALPHA.graphs.FullCWEGraph import FullCWEGraph
+from ALPHA.graphs.WeaknessCWEGraph import WeaknessCWEGraph
 
 class ALPHA:
     def __init__(self, 
@@ -17,7 +17,7 @@ class ALPHA:
 
 
     def create_full_graph(self) -> FullCWEGraph:
-        """Createservices/CodeSecurity/cwe_analysis/eda_results.json full CWE graph including all types."""
+        """Creates ALPHA/eda_results.json full CWE graph including all types."""
         return FullCWEGraph(self.eda_path)
     
     
@@ -45,13 +45,13 @@ class ALPHA:
         
     
     def get_distance_stats(self):
-        weaakness_cwe_graph = self.create_weakness_graph()
-        return weaakness_cwe_graph.compute_distance_statistics()
+        weakness_cwe_graph = self.create_weakness_graph()
+        return weakness_cwe_graph.compute_distance_statistics()
         
 if __name__ == "__main__":
-    EDA_PATH = "code_security/eda_results.json"
-    sven = "services/CodeSecurity/experiments/SAST/SVEN_sast_transformed_any_match.json"
-    security_eval = "services/CodeSecurity/experiments/SAST/SecurityEval_sast_transformed_any_match.json"
+    EDA_PATH = "ALPHA/eda_results.json"
+    sven = "experiments/SAST/SVEN_sast_transformed_any_match.json"
+    security_eval = "experiments/SAST/SecurityEval_sast_transformed_any_match.json"
 
     alpha_instance = ALPHA(
         predictions_path=sven,
