@@ -1,0 +1,201 @@
+{
+  "test_info": {
+    "timestamp": "2025-09-30T00:01:11.522452",
+    "base_url": "https://cwe-api.mitre.org/api/v1",
+    "test_cwe_id": "710",
+    "total_endpoints_tested": 4
+  },
+  "results": {
+    "/cwe/710": {
+      "ID": "710",
+      "Type": "pillar_weakness",
+      "is_deprecated": false
+    },
+    "/cwe/weakness/710": {
+      "ID": "710",
+      "Name": "Improper Adherence to Coding Standards",
+      "Abstraction": "Pillar",
+      "Structure": "Simple",
+      "Status": "Incomplete",
+      "Description": "The product does not follow certain coding rules for development, which can lead to resultant weaknesses or increase the severity of the associated vulnerabilities.",
+      "ExtendedDescription": null,
+      "LikelihoodOfExploit": null,
+      "ApplicablePlatforms": [
+        {
+          "Type": "Language",
+          "Class": "Not Language-Specific",
+          "Prevalence": "Undetermined"
+        },
+        {
+          "Type": "Technology",
+          "Class": "Not Technology-Specific",
+          "Prevalence": "Undetermined"
+        }
+      ],
+      "AlternateTerms": null,
+      "ModesOfIntroduction": [
+        {
+          "Phase": "Architecture and Design"
+        },
+        {
+          "Phase": "Implementation"
+        }
+      ],
+      "CommonConsequences": [
+        {
+          "Scope": [
+            "Other"
+          ],
+          "Impact": [
+            "Other"
+          ]
+        }
+      ],
+      "DemonstrativeExamples": null,
+      "PotentialMitigations": [
+        {
+          "Phase": [
+            "Implementation"
+          ],
+          "Description": "Document and closely follow coding standards."
+        },
+        {
+          "Phase": [
+            "Testing",
+            "Implementation"
+          ],
+          "Description": "Where possible, use automated tools to enforce the standards."
+        }
+      ]
+    },
+    "/cwe/710/parents": {
+      "category_parents": [
+        "1370",
+        "1375",
+        "1383",
+        "1412",
+        "978"
+      ]
+    },
+    "/cwe/710/children": {
+      "weakness_children": [
+        [
+          "base_weakness",
+          "1041"
+        ],
+        [
+          "base_weakness",
+          "1044"
+        ],
+        [
+          "base_weakness",
+          "1048"
+        ],
+        [
+          "class_weakness",
+          "1059"
+        ],
+        [
+          "class_weakness",
+          "1061"
+        ],
+        [
+          "base_weakness",
+          "1065"
+        ],
+        [
+          "base_weakness",
+          "1066"
+        ],
+        [
+          "base_weakness",
+          "1068"
+        ],
+        [
+          "class_weakness",
+          "1076"
+        ],
+        [
+          "base_weakness",
+          "1092"
+        ],
+        [
+          "class_weakness",
+          "1093"
+        ],
+        [
+          "base_weakness",
+          "1101"
+        ],
+        [
+          "class_weakness",
+          "1120"
+        ],
+        [
+          "base_weakness",
+          "1126"
+        ],
+        [
+          "base_weakness",
+          "1127"
+        ],
+        [
+          "class_weakness",
+          "1164"
+        ],
+        [
+          "class_weakness",
+          "1177"
+        ],
+        [
+          "base_weakness",
+          "1209"
+        ],
+        [
+          "class_weakness",
+          "1357"
+        ],
+        [
+          "base_weakness",
+          "476"
+        ],
+        [
+          "base_weakness",
+          "477"
+        ],
+        [
+          "base_weakness",
+          "484"
+        ],
+        [
+          "base_weakness",
+          "489"
+        ],
+        [
+          "base_weakness",
+          "570"
+        ],
+        [
+          "base_weakness",
+          "571"
+        ],
+        [
+          "class_weakness",
+          "573"
+        ],
+        [
+          "class_weakness",
+          "657"
+        ],
+        [
+          "class_weakness",
+          "684"
+        ],
+        [
+          "class_weakness",
+          "758"
+        ]
+      ]
+    }
+  }
+}

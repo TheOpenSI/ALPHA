@@ -1,0 +1,182 @@
+{
+  "test_info": {
+    "timestamp": "2025-09-29T23:55:16.068047",
+    "base_url": "https://cwe-api.mitre.org/api/v1",
+    "test_cwe_id": "664",
+    "total_endpoints_tested": 4
+  },
+  "results": {
+    "/cwe/664": {
+      "ID": "664",
+      "Type": "pillar_weakness",
+      "is_deprecated": false
+    },
+    "/cwe/weakness/664": {
+      "ID": "664",
+      "Name": "Improper Control of a Resource Through its Lifetime",
+      "Abstraction": "Pillar",
+      "Structure": "Simple",
+      "Status": "Draft",
+      "Description": "The product does not maintain or incorrectly maintains control over a resource throughout its lifetime of creation, use, and release.",
+      "ExtendedDescription": "\n\nResources often have explicit instructions on how to be created, used and destroyed. When code does not follow these instructions, it can lead to unexpected behaviors and potentially exploitable states.\n\n\nEven without explicit instructions, various principles are expected to be adhered to, such as \"Do not use an object until after its creation is complete,\" or \"do not use an object after it has been slated for destruction.\"\n",
+      "LikelihoodOfExploit": null,
+      "ApplicablePlatforms": [
+        {
+          "Type": "Language",
+          "Class": "Not Language-Specific",
+          "Prevalence": "Undetermined"
+        },
+        {
+          "Type": "Technology",
+          "Class": "Not Technology-Specific",
+          "Prevalence": "Undetermined"
+        }
+      ],
+      "AlternateTerms": null,
+      "ModesOfIntroduction": [
+        {
+          "Phase": "Implementation"
+        }
+      ],
+      "CommonConsequences": [
+        {
+          "Scope": [
+            "Other"
+          ],
+          "Impact": [
+            "Other"
+          ]
+        }
+      ],
+      "DemonstrativeExamples": null,
+      "PotentialMitigations": [
+        {
+          "Phase": [
+            "Testing"
+          ],
+          "Description": "Use Static analysis tools to check for unreleased resources."
+        }
+      ]
+    },
+    "/cwe/664/parents": {
+      "category_parents": [
+        "1163",
+        "1370",
+        "1416",
+        "984"
+      ]
+    },
+    "/cwe/664/children": {
+      "weakness_children": [
+        [
+          "class_weakness",
+          "118"
+        ],
+        [
+          "class_weakness",
+          "1229"
+        ],
+        [
+          "base_weakness",
+          "1250"
+        ],
+        [
+          "base_weakness",
+          "1329"
+        ],
+        [
+          "class_weakness",
+          "221"
+        ],
+        [
+          "base_weakness",
+          "372"
+        ],
+        [
+          "class_weakness",
+          "400"
+        ],
+        [
+          "class_weakness",
+          "404"
+        ],
+        [
+          "class_weakness",
+          "410"
+        ],
+        [
+          "base_weakness",
+          "471"
+        ],
+        [
+          "base_weakness",
+          "487"
+        ],
+        [
+          "variant_weakness",
+          "495"
+        ],
+        [
+          "variant_weakness",
+          "496"
+        ],
+        [
+          "base_weakness",
+          "501"
+        ],
+        [
+          "variant_weakness",
+          "580"
+        ],
+        [
+          "class_weakness",
+          "610"
+        ],
+        [
+          "class_weakness",
+          "662"
+        ],
+        [
+          "class_weakness",
+          "665"
+        ],
+        [
+          "class_weakness",
+          "666"
+        ],
+        [
+          "class_weakness",
+          "668"
+        ],
+        [
+          "class_weakness",
+          "669"
+        ],
+        [
+          "class_weakness",
+          "673"
+        ],
+        [
+          "class_weakness",
+          "704"
+        ],
+        [
+          "class_weakness",
+          "706"
+        ],
+        [
+          "base_weakness",
+          "911"
+        ],
+        [
+          "class_weakness",
+          "913"
+        ],
+        [
+          "class_weakness",
+          "922"
+        ]
+      ]
+    }
+  }
+}

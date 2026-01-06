@@ -1,0 +1,68 @@
+{
+  "test_info": {
+    "timestamp": "2025-09-29T22:45:40.732652",
+    "base_url": "https://cwe-api.mitre.org/api/v1",
+    "test_cwe_id": "1432",
+    "total_endpoints_tested": 4
+  },
+  "results": {
+    "/cwe/1432": {
+      "ID": "1432",
+      "Type": "view",
+      "is_deprecated": false
+    },
+    "/cwe/weakness/1432": null,
+    "/cwe/1432/parents": {},
+    "/cwe/1432/children": {
+      "weakness_children": [
+        [
+          "base_weakness",
+          "1189"
+        ],
+        [
+          "base_weakness",
+          "1191"
+        ],
+        [
+          "base_weakness",
+          "1234"
+        ],
+        [
+          "base_weakness",
+          "1247"
+        ],
+        [
+          "base_weakness",
+          "1256"
+        ],
+        [
+          "base_weakness",
+          "1260"
+        ],
+        [
+          "base_weakness",
+          "1262"
+        ],
+        [
+          "base_weakness",
+          "1300"
+        ],
+        [
+          "base_weakness",
+          "1421"
+        ],
+        [
+          "base_weakness",
+          "1423"
+        ],
+        [
+          "base_weakness",
+          "226"
+        ]
+      ],
+      "category_children": [
+        "1433"
+      ]
+    }
+  }
+}
