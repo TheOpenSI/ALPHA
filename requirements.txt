@@ -1,0 +1,7 @@
+ollama
+pandas
+numpy
+tqdm
+networkx
+scipy
+matplotlib
