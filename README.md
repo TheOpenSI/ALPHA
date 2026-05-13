@@ -1,9 +1,10 @@
 # ALPHA: Adaptive Learning via Penalty in Hierarchical Assessment
 
-[![arXiv](https://img.shields.io/badge/arXiv-2601.01320-b31b1b.svg)](https://arxiv.org/abs/2601.01320)
-[![PDF](https://img.shields.io/badge/PDF-Download-brightgreen)](https://arxiv.org/pdf/2601.01320)
+[![IEEE](https://img.shields.io/badge/DOI-0085CA?style=for-the-badge&logo=doi&logoColor=white)](https://ieeexplore.ieee.org/document/11498216)
+[![arXiv](https://img.shields.io/badge/arXiv-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.01320)
 
-The first function-level Python benchmark for evaluating LLMs and SAST tools using hierarchically aware, CWE-specific penalties.
+The first function-level Python benchmark for evaluating LLMs and SAST tools using hierarchically aware, CWE-specific penalties. 
+<b>The paper had been published at the IEEE conference proceedings of 2026 International Conference on Advances in Artificial Intelligence and Machine Learning (AAIML).</b>
 
 ## Overview
 
@@ -55,10 +56,14 @@ Lower scores indicate better performance. LLM results show mean ± standard devi
 If you use ALPHA in your research, please cite:
 
 ```bibtex
-@article{alpha2026,
-  title={Adaptive Hierarchical Evaluation of LLMs and SAST tools for CWE Prediction in Python},
+@INPROCEEDINGS{11498216,
   author={Adnan, Muntasir and Kuhn, Carlos C. N.},
-  journal={arXiv preprint arXiv:2601.01320},
-  year={2026}
-}
+  booktitle={2026 International Conference on Advances in Artificial Intelligence and Machine Learning (AAIML)}, 
+  title={Adaptive Hierarchical Evaluation of LLMs and SAST tools for CWE Prediction in Python}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={193-200},
+  keywords={Feedback;Circuits;Filtering;Filters;Integrated circuits;Feedback loop;Radio access networks;Regional area networks;Protocols;Communication systems;Vulnerability Detection;Large Language Models;Static Analysis;CWE Classification;Hierarchical Evaluation},
+  doi={10.1109/AAIML67890.2026.11498216}}
 ```
