@@ -30,8 +30,8 @@ class BaseCWEGraph(ABC):
     """
     
     def __init__(self, 
-                 eda_results_path: str = "code_security/eda_results.json",
-                 depth_analysis_path: str = "code_security/depth_analysis/cwe_depths.json"):
+                 eda_results_path: str = "ALPHA/eda_results.json",
+                 depth_analysis_path: str = "ALPHA/depth_analysis/cwe_depths.json"):
         """
         Initialise the graph analyser.
         

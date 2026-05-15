@@ -4,7 +4,7 @@ import json
 from typing import Dict, Set, List, Tuple
 from collections import defaultdict, deque
 
-from code_security.graphs.BaseCWEGraph import BaseCWEGraph
+from ALPHA.graphs.BaseCWEGraph import BaseCWEGraph
 
 class WeaknessCWEGraph(BaseCWEGraph):
     """

@@ -1,7 +1,7 @@
 import networkx as nx
 
 from typing import Dict
-from code_security.graphs.BaseCWEGraph import BaseCWEGraph
+from ALPHA.graphs.BaseCWEGraph import BaseCWEGraph
 
 class FullCWEGraph(BaseCWEGraph):
     """
